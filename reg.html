@@ -2,18 +2,12 @@
 <html>
 
 <head>
-<meta charset="UTF-8">
-<link rel=stylesheet type="text/css" href="quiz1.css"> 
+<meta charset="UTF-8"> 
 <title>Insert title here</title>
 </head>
 
 <body>
-<!-- 表單 -->
-
-
-
-                <form action="#" method="post">
-                    <!-- 區塊 -->
+               <form action="#" method="post">                   
                     <fieldset>
                         <legend> Registration Form</legend>
                         <!-- 姓名(必填)：文字框 (最長10個字元)-->
@@ -23,7 +17,7 @@
 
                       <!-- 學院(必填)：選擇框 (列出9個學院)-->
                         <label for="college">學院:</label>
-                        <select name="select-college" id="select-college" tabindex="2">
+                        <select name="select-college" id="select-college" tabindex="2" required>
                             <option value="">(請選擇)</option>
                             <option value="文學院">文學院</option>
                             <option value="理學院">理學院</option>
@@ -51,8 +45,6 @@
                       <!-- 送出按鈕-->
                     <div>
                         <input type="submit" value="Submit" />
-                    </div>
-                </form>
-
+                    </div>           
                 </body>
                 </html>
